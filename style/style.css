@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* navigation */
+#navbar {
+   
+    position: sticky;
+    top: 0px;
+    left:0px;
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+nav ul .logo {
+    height: 30px;
+    border-radius: 90px;
+}
+
+nav ul {
+    padding: 15px 10px;
+    display: flex;
+}
+
+nav ul li {
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: aliceblue;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+/* Home Section */
+#home {
+ z-index: -1; 
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    background: url("../images/bg/bg.jpg ") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+#home p{
+    padding :10px;
+}
+#sevices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client-container{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+   background: url("../images/bg/bg1.jpg") no-repeat center center/cover;
+
+}
+#client img
+{
+    position: relative;
+    left:30vw; 
+height: 100px;
+padding: 5px 15px;
+}
+
+#contact-container{
+    background: url("../images/sections/contact.jpg") no-repeat center center/cover;
+  
+}
+/* utility classes */
+
+.center {
+    text-align: center;
+}
+.btn {
+    border: 1px white solid;
+    border-radius: 10px;
+    width: auto;
+    height: 5vh;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.h_primary {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.box {
+    border: 1px solid brown;
+    border-radius: 25px;
+    height: 79vh;
+    width: 30vw;
+    /* width: 400px; */
+    margin: 5px;
+    text-align: center;
+}
+.box img {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 25px 25px 0px 0px;
+}
+.wid {
+    width:50vw;
+}
+
+.form1 
+{
+    width: 30vw;
+    padding: 10px 300px;
+    align-items: center;
+    align-content: center;
+}
+
+/* About us */
+#about{
+    background: url("../images/bg/aboutus.jpg") no-repeat center center/cover;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.aboutdiv{
+    margin:100px;
+    text-align: center;
+    padding: 26px 350px;
+}
+.btom
+{
+float: right;
+color: blue;
+}
+.btn:hover{
+    background-color: grey;
+}

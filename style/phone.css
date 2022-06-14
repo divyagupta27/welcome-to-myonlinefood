@@ -1,0 +1,70 @@
+#navbar ul {
+    font-size: small;
+}
+
+#home {
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#home p {
+    font-size: small;
+    align-items: center;
+}
+
+
+#sevices {
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+
+#client img {
+    position: relative;
+    align-self: center;
+    height: 8vh;
+    width: 10vw;
+    padding: 2px 3px;
+    
+}
+
+/* utility classes */
+.btn {
+    font-size: small;
+    width: auto;
+    padding: 0px;
+    height: 3vh;
+}
+
+.h-primary {
+    font-size: 20px;
+}
+
+.box img {
+    width: 84vw;
+    height: 30vh;
+    border-radius: 25px 25px 0px 0px;
+}
+.wid{
+    font-size: small;
+width: 30vw;
+padding:2px;
+display: block;
+}
+.box {
+    width: 86vw;
+    margin: 5px auto;
+    height: 40vh;
+
+    text-align: center;
+
+}
+.form1 
+{
+    width: 40vw;
+    padding: 10px 50px;
+  
+}
